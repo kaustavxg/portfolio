@@ -14,7 +14,7 @@
 
         const ghChart = document.getElementById('ghChart');
         if (ghChart) {
-            ghChart.src = `https://ghchart.rshah.org/22c55e/${githubUsername}`;
+            ghChart.src = `https://ghchart.rshah.org/22c55e/${githubUsername}?t=${Date.now()}`;
             ghChart.onerror = () => {
                 ghChart.src = `https://github-contributions-api.deno.dev/${githubUsername}.svg?no-total=true&format=svg&scheme=green`;
             };
