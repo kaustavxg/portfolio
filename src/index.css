@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme extensions equivalent to prior Tailwind config via CDN */
+:root {
+    --accent: #f59e0b;
+    --accent-hover: #d97706;
+    --base-900: #0a0a0a;
+    --base-800: #111111;
+    --base-700: #1a1a1a;
+}
+
+/* Ensure body font (kept from previous inline style) */
+body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+

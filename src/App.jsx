@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import ProfilePic from '../Assets/profilepic.jpg'
 
 function useInitTheme() {
     useEffect(() => {
@@ -47,7 +48,7 @@ export default function App() {
                         <div className="flex items-center gap-6">
                             <img 
                                 className="h-20 w-20 rounded-full ring-2 ring-accent/50 object-cover" 
-                                src="./Assets/profilepic.jpg" 
+                                src={ProfilePic} 
                                 alt="Avatar" 
                             />
                             <div>
