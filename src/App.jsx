@@ -67,7 +67,7 @@ export default function App() {
                                     <p className="font-medium text-zinc-200">Tech Range</p>
                                     <div className="flex flex-col items-end space-y-1">
                                         <span className="text-xs text-amber-400 font-medium">Backend Developer Intern</span>
-                                        <span className="text-xs text-zinc-400">Sept 2025 – Present</span>
+                                        <span className="text-xs text-zinc-400">Aug 2025 – Oct 2025</span>
                                     </div>
                                 </div>
                                 <p className="mt-2 text-sm text-zinc-400">Stack: Node.js, Express.js, MongoDB, RESTful APIs</p>
